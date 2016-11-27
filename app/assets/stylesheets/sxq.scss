@@ -1,0 +1,53 @@
+.fluid-container {
+  width: 85%;
+  margin: 0 auto;
+}
+.review-wrap {
+  font-family: 'Lora', serif;
+}
+.book-image {
+  text-align: 'center';
+  // margin: 0 auto;
+  margin-top: 1em;
+  width: 300px;
+}
+.sxq {
+  margin-top: 5em;
+  a {
+    color:rgb(255, 0, 153);
+    text-decoration: underline;
+    // &:hover {
+    // }
+    // &:visited {
+    // }
+  }
+  p {
+    font-size: 1.2em;
+  }
+  .squiggle {
+    font-size: 2.5em;
+  }
+  .plus {
+    font-size: 3.5em;
+    -webkit-margin-after: 0em;
+    padding-top: 5%;
+  }
+  .left-down {
+    margin-top: 1em;
+    transform: rotate(90deg);
+    font-size: 3.5em;
+  }
+  .times {
+    font-size: 3.5em;
+    margin-top: 2.5em;
+  }
+  .middle {
+    vertical-align: 'center';
+  }
+  .divide {
+    font-size: 3.5em;
+    font-family: serif;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+}
