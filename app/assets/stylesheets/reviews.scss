@@ -4,13 +4,22 @@
 @import "materialize";
 body {
   background-color: rgb(252, 252, 252);
+  font-family: 'Lora', serif;
 }
 .site-lead {
   text-align: center;
 }
 .review-link {
   font-size: 1.4rem;
+  // font-family: 'Lora', serif;
 }
 .review-item {
-  margin-top: 3px;
+  margin-top: 10px;
+  // text-decoration: underline;
+  a {
+    &:hover {
+      text-decoration: underline;
+      color:black;
+    }
+  }
 }
