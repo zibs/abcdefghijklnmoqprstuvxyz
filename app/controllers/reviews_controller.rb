@@ -12,4 +12,10 @@ class ReviewsController < ApplicationController
   def their_bio
   end
 
+  def revolving_door
+  end
+  
+  def on_malice
+  end
+
 end

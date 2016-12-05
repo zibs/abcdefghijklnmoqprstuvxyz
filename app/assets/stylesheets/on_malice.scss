@@ -1,0 +1,41 @@
+.on-malice-img {
+  width: 420px;
+  margin-top: 0.5em;
+}
+.malicious-text {
+  font-size: 10em;
+  line-height: 10%;
+  margin-top: 1em;
+  overflow-x:visible;
+}
+
+.on-malice {
+  p {
+    font-size: 1.3em;
+    line-height: 1.6em;
+  }
+  a {
+    color: #E1631F;
+    text-decoration: underline;
+    // &:hover {
+    // }
+    // &:visited {
+    // }
+  }
+  .donne-text {
+    text-align: center;
+    font-size: 4em;
+    line-height: 0.5em;
+    padding-bottom: 0.5em;
+    overflow: hidden;
+    white-space: pre-wrap;
+  }
+  .donne-splat {
+    letter-spacing: 2em;
+    line-height: 0.2em;
+  }
+  .kandlinge {
+    padding-top: 0.5em;
+    font-size: 6em;
+  }
+}
