@@ -14,8 +14,11 @@ class ReviewsController < ApplicationController
 
   def revolving_door
   end
-  
+
   def on_malice
+  end
+
+  def thrum
   end
 
 end

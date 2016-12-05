@@ -1,0 +1,24 @@
+.thrum-img {
+  width: 400px;
+  margin-top: 0.5em;
+}
+
+.thrum {
+  p {
+    font-size: 1.3em;
+    line-height: 1.6em;
+  }
+  a {
+    color: #85B5D7;
+    text-decoration: underline;
+    // &:hover {
+    // }
+    // &:visited {
+    // }
+  }
+  .action-language {
+    display: inline-block;
+    line-height: 0.2em;
+    font-size: 1em;
+  }
+}
