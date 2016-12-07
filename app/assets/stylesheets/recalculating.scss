@@ -1,0 +1,27 @@
+.recalculating-img {
+  width: 390px;
+  margin-top: 1.9em;
+}
+
+.recalculating {
+  p {
+    font-size: 1.3em;
+    line-height: 1.6em;
+  }
+  pre {
+    padding-bottom: 0.5em;
+    overflow: hidden;
+    white-space: pre-wrap;
+  }
+  .cb-recalculating-img {
+    width: 300px;
+  }
+  a {
+    color: #85B5D7;
+    text-decoration: underline;
+    // &:hover {
+    // }
+    // &:visited {
+    // }
+  }
+}

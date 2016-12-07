@@ -1,0 +1,28 @@
+.aswhen-img {
+  width: 300px;
+  margin-top: 1.5em;
+}
+
+.as-when {
+  p {
+    font-size: 1.3em;
+    line-height: 1.6em;
+  }
+  .dedication-as-when {
+    font-size: 0.75em;
+    font-style: italic;
+  }
+  a {
+    color: #85B5D7;
+    text-decoration: underline;
+    // &:hover {
+    // }
+    // &:visited {
+    // }
+  }
+  .action-language {
+    display: inline-block;
+    line-height: 0.2em;
+    font-size: 1em;
+  }
+}

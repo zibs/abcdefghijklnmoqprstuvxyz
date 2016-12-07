@@ -21,4 +21,10 @@ class ReviewsController < ApplicationController
   def thrum
   end
 
+  def consistently_round
+  end
+  
+  def recalculating
+  end
+
 end
