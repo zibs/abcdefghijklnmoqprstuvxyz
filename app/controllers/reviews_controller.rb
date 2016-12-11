@@ -23,8 +23,20 @@ class ReviewsController < ApplicationController
 
   def consistently_round
   end
-  
+
   def recalculating
+  end
+
+  def thin_meat
+  end
+
+  def bardy_google
+  end
+
+  def forage
+  end
+
+  def sympathy_loophole
   end
 
 end

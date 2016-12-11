@@ -8,5 +8,9 @@ Rails.application.routes.draw do
   get "Letter-Action-Language" => "reviews#thrum", as: :thrum
   get "Not-Consistently-Round-No-Consistent-Sound" => "reviews#consistently_round", as: :consistently_round
   get "Recalculating" => "reviews#recalculating", as: :recalculating
+  get "Cuts-of-Thin-Meat" => "reviews#thin_meat", as: :thin_meat
+  get "Davey-Google" => "reviews#bardy_google", as: :bardy_google
+  get "Downer-of-Rage-Forager-of-Wonder" => "reviews#forage", as: :forage
+  get "A-Sphygmomanometric-Poetic" => "reviews#sympathy_loophole", as: :sympathy_loophole
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

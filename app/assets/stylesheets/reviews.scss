@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "materialize";
+@import url('https://fonts.googleapis.com/css?family=Lato');
 body {
   background-color: rgb(252, 252, 252);
   font-family: 'Lora', serif;
@@ -10,7 +11,8 @@ body {
   text-align: center;
 }
 .review-link {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
   // font-family: 'Lora', serif;
 }
 .review-item {
@@ -33,4 +35,11 @@ body {
 }
 .title-text-vertical {
   line-height: 50%;
+}
+.margin-top {
+  margin-top: 1.5em;
+}
+
+.margin-bottom {
+  margin-top: 1.5em;
 }
