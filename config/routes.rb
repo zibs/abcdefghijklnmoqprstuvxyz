@@ -12,5 +12,7 @@ Rails.application.routes.draw do
   get "Davey-Google" => "reviews#bardy_google", as: :bardy_google
   get "Downer-of-Rage-Forager-of-Wonder" => "reviews#forage", as: :forage
   get "A-Sphygmomanometric-Poetic" => "reviews#sympathy_loophole", as: :sympathy_loophole
+  get "Downloading-Downverse" => "reviews#downverse", as: :downverse
+  get "Telling-Constellations-in-Julie-Carrs-Think-Tank" => "reviews#think_tank", as: :think_tank
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

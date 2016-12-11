@@ -1,0 +1,27 @@
+.thinktank-img {
+  width: 350px;
+  margin-top: 1em;
+}
+
+.thinktank {
+  .astericks {
+    font-size: 45em;
+  }
+  p {
+    font-size: 1.3em;
+  }
+  pre {
+    padding-bottom: 0.5em;
+    overflow: hidden;
+    white-space: pre-wrap;
+  }
+
+  a {
+    color: #C51A2D;
+    text-decoration: underline;
+    // &:hover {
+    // }
+    // &:visited {
+    // }
+  }
+}

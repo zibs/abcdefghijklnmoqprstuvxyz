@@ -39,4 +39,10 @@ class ReviewsController < ApplicationController
   def sympathy_loophole
   end
 
+  def downverse
+  end
+
+  def think_tank
+  end
+
 end
