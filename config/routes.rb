@@ -14,5 +14,6 @@ Rails.application.routes.draw do
   get "A-Sphygmomanometric-Poetic" => "reviews#sympathy_loophole", as: :sympathy_loophole
   get "Downloading-Downverse" => "reviews#downverse", as: :downverse
   get "Telling-Constellations-in-Julie-Carrs-Think-Tank" => "reviews#think_tank", as: :think_tank
+  get "Cut-Up-Apologetic" => "reviews#cut_up", as: :cut_up
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

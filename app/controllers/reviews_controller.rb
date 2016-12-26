@@ -45,4 +45,7 @@ class ReviewsController < ApplicationController
   def think_tank
   end
 
+  def cut_up
+  end
+
 end
