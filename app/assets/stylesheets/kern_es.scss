@@ -40,12 +40,10 @@
 .letter:nth-child(100n+69) {
     font-size: 15em;
     float: left;
-    color: pink;
 }
 .letter:nth-child(100n+50) {
     font-size: 4em;
     transform: translateX(-1em) skewY(20deg);
     -webkit-transform: translateX(-1em) skewY(20deg);
-    ;
-    color: yellow;
+
 }
