@@ -11,6 +11,17 @@
   </head>
 
   <body>
+    <% if flash %>
+      <% flash.each do | message_type, message| %>
+        <section class="row flash-msg alert-<%=message_type%>">
+          <section class="center-align alert">
+            <%= message %>
+            <i class="material-icons float-right flash-close">close</i>
+          </section>
+        </section>
+      <% end  %>
+    <% end %>
+    <% flash.clear %>
     <%= yield %>
     <%= render 'layouts/fixed_bubble' %>
   </body>

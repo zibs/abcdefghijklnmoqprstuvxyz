@@ -1,0 +1,48 @@
+.flash-msg {
+  // position: absolute;
+  width: 60%;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  border: 1px solid transparent;
+}
+.flash-wrap {
+  display: inline-block;
+}
+.float-right {
+  float: right;
+  margin-right: 15px
+}
+.alert {
+  margin-left: 25px
+}
+.alert-sxq {
+  background-color:rgba(255, 0, 114, 0.08);
+  border-color:rgb(249, 96, 163);
+  color: rgb(244, 61, 142);
+}
+.alert-kern {
+  background-color:rgba(36, 70, 142, 0.32);
+  border-color:rgba(29, 69, 154, 1);
+  color: rgba(36, 70, 142, 0.9);
+}
+.alert-bio {
+  background-color:rgba(231, 119, 37, 0.28);
+  border-color:#E77725;
+  color: #E77725;
+}
+.alert-malice {
+  background-color:rgba(#d95f1c, 0.22);
+  border-color:#D95F1C;
+  color: #D95F1C;
+}
+.alert-thrum {
+  background-color:rgba(#74acd5, 0.13);
+  border-color:#74ACD5;
+  color: #74ACD5;
+}
+.alert-recalculating {
+  background-color:rgba(#244263, 0.27);
+  border-color:#244264;
+  color: #244264;
+}

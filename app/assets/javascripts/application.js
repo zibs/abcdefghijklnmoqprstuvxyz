@@ -20,3 +20,9 @@
 document.addEventListener("turbolinks:load", function(){
   $(".modal").modal()
 });
+
+document.addEventListener("turbolinks:load", function(){
+  $(".flash-close").click(function() {
+    $(".flash-msg").fadeOut();
+  });
+});
