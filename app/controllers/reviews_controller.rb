@@ -1,12 +1,10 @@
 class ReviewsController < ApplicationController
 
   def index
-
   end
 
   def sxq
     flash[:sxq] = "This review was originally written in 2015"
-
   end
 
   def kern

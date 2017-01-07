@@ -26,3 +26,9 @@ document.addEventListener("turbolinks:load", function(){
     $(".flash-msg").fadeOut();
   });
 });
+
+document.addEventListener("turbolinks:load", function(){
+  $(".new-reader-form-submit").click(function() {
+    $('#reader-form').modal('close');
+  });
+});

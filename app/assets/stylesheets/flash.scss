@@ -16,6 +16,37 @@
   float: right;
   margin-right: 15px
 }
+.modal-footer .btn-flat {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color .2s;
+  transition-property: background-color;
+  transition-duration: 0.1s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+  &:hover {
+    background-color: rgba(#ffffff, 0.53);
+    box-shadow: none;
+    color: black;
+    border: 1px solid black;
+  }
+}
+.modal-footer .btn-flat.about {
+  background-color: #ffb21c;
+  color: #343434;
+  cursor: pointer;
+  transition: background-color .2s;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+  &:hover {
+    background-color: rgba(#ffb21c, 0.68);
+    box-shadow: none;
+  }
+}
+
 .alert {
   margin-left: 25px
 }

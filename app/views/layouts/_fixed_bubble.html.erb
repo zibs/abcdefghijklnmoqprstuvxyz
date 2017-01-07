@@ -1,8 +1,32 @@
-<div class="fixed-action-btn click-to-toggle">
-  <a class="btn-floating waves-effect waves-light btn-large light-blue darken-4">
-    <i class="large material-icons">chat_bubble_outline</i>
+<section class="fixed-action-btn">
+  <a class="btn-floating waves-effect waves-light btn-large grey darken-3">
+    <i class="large material-icons">more_horiz</i>
   </a>
   <ul>
-    <li><a class="btn-floating red"><i class="material-icons">rss_feed</i></a></li>
+    <li><a class="btn-floating grey darken-3" href="#about-modal"><i class="material-icons">question_answer</i></a></li>
+    <li><a class="btn-floating grey darken-3" href="#reader-form"><i class="material-icons">rss_feed</i></a></li>
   </ul>
-</div>
+</section>
+<section id="reader-form" class="modal">
+  <section class="modal-content">
+    <h4>join the mailing list</h4>
+    <p>you'll only receive an email when there is something new, and I feel like sending an email, and I remember to. </p>
+    <%= form_for Reader.new, url: readers_path, remote: true do |f| %>
+      <section class="row">
+      <%= f.text_field :email, placeholder: "enter your email", type: "email", class: 'col s10'%>
+      </section>
+  </section>
+  <section class="modal-footer">
+    <%= f.submit "Register", class: "new-reader-form-submit btn-flat" %>
+  </section>
+  <% end %>
+</section>
+<section id="about-modal" class="modal">
+  <section class="modal-content">
+    <h4><em><u>abcdefghijklmnopqrstuvxyz</u></em></h4>
+    <p>is an attempt to engage with contemporary (often canadian) poetics in newfangled methods of reviewing and computer mediation. feel free to contact me at <a href="mailto:elizibin@gmail.com">elizibin@gmail.com</a> with any questions, suggestions, if you'd like to write a review yourself, or to suggest a book to review. </p>
+  </section>
+  <section class="modal-footer">
+    <a class=" modal-action modal-close waves-effect waves-green btn-flat">okay</a>
+  </section>
+</section>

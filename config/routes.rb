@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :readers, only: [:create]
+
   root 'reviews#index'
   get "Plausible-Hypotheses" => "reviews#sxq", as: :sxq
   get "Kerncrete-Poetics" => "reviews#kern", as: :kern
