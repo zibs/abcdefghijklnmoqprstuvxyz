@@ -32,3 +32,6 @@ document.addEventListener("turbolinks:load", function(){
     $('#reader-form').modal('close');
   });
 });
+document.addEventListener("turbolinks:load", function(){
+  $(".sympathy-loophole").fadeOut(100000);
+});
