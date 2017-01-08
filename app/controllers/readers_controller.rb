@@ -4,7 +4,7 @@ class ReadersController < ApplicationController
     reader = Reader.new(reader_params)
     respond_to do |format|
       if reader.save
-        format.js { flash[:sxq] = 'nice'}
+        format.js
       end
     end
   end
