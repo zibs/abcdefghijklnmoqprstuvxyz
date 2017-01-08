@@ -1,5 +1,5 @@
 class ReviewsController < ApplicationController
-
+  http_basic_authenticate_with name: "abcdefgh", password: "xyzxyz"
   def index
   end
 
