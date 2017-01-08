@@ -2,7 +2,7 @@
   <% if flash %>
     <% flash.each do | message_type, message| %>
       <section class="row flash-msg alert-<%=message_type%>">
-        <section class="center-align alert">
+        <section class="alert">
           <%= message %>
           <i class="material-icons float-right flash-close">close</i>
         </section>

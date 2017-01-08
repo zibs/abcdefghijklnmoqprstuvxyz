@@ -36,6 +36,12 @@
   p {
     font-size: 1.2em;
   }
+  pre {
+    padding-bottom: 0.5em;
+    overflow: hidden;
+    white-space: pre-wrap;
+    margin: 0 25px;
+  }
   .kerns-long-words {
     font-size: 2em;
     font-weight: bold;

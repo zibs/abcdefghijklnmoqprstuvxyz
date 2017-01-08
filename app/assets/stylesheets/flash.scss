@@ -16,8 +16,9 @@
   float: right;
   margin-right: 15px
 }
-.modal-footer .btn-flat {
+.modal .modal-footer .btn-flat {
   background-color: #0d0d0d;
+  margin-right: 15px;
   color: #ffffff;
   cursor: pointer;
   transition: background-color .2s;
@@ -79,4 +80,44 @@
   background-color:rgba(#244263, 0.27);
   border-color:#244264;
   color: #244264;
+}
+.alert-round {
+  background-color:rgba( #817C44, 0.27);
+  border-color: #817C44;
+  color:  #817C44;
+}
+.alert-meat {
+  background-color:rgba(#485D29, 0.27);
+  border-color:#485D29;
+  color: #485D29;
+}
+.alert-forage {
+  background-color:rgba(#118A6E, 0.27);
+  border-color:#118A6E;
+  color: #118A6E;
+}
+.alert-google {
+  background-color:rgba(#80BFA8, 0.27);
+  border-color:#80BFA8;
+  color: #80BFA8;
+}
+.alert-loophole {
+  background-color:rgba(#3F6686, 0.27);
+  border-color:#3F6686;
+  color: #3F6686;
+}
+.alert-tank {
+background-color:rgba(#C51A2D, 0.27);
+  border-color:#C51A2D;
+  color: #C51A2D;
+}
+.alert-downverse {
+  background-color:rgba(#EDA93A, 0.27);
+  border-color:#EDA93A;
+  color: #EDA93A;
+}
+.alert-cut {
+  background-color:rgba(#AF737A, 0.27);
+  border-color:#AF737A;
+  color: #AF737A;
 }
