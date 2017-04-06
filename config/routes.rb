@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
+  # get 'poems/first_poem'
+
   resources :readers, only: [:create]
+
+  constraints subdomain: "xyz" do
+    get 'poems/research' => "xyz/poems#research"
+    get 'poems/' => "xyz/poems#index"
+    get 'poems/aesthesis' => "xyz/poems#aesthesis"
+    get 'poems/settings' => "xyz/poems#settings"
+   end
 
   root 'reviews#index'
   get "Plausible-Hypotheses" => "reviews#sxq", as: :sxq

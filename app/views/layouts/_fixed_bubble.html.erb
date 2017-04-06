@@ -1,6 +1,6 @@
 <section class="fixed-action-btn">
-  <a class="btn-floating waves-effect waves-light btn-large grey darken-3">
-    <i class="large material-icons">more_horiz</i>
+  <a class="btn-floating waves-effect waves-light grey darken-3">
+    <i class="material-icons">more_horiz</i>
   </a>
   <ul>
     <li><a class="btn-floating grey darken-3" href="#about-modal"><i class="material-icons">question_answer</i></a></li>
@@ -9,7 +9,7 @@
 </section>
 <section id="reader-form" class="modal">
   <section class="modal-content">
-    <h4>join the mailing list</h4>
+    <h5>join the mailing list</h4>
     <p>you'll only receive an email when there is something new, and i feel like sending an email, and i remember to. </p>
     <%= form_for Reader.new, url: readers_path, remote: true do |f| %>
       <section class="row">
@@ -23,7 +23,7 @@
 </section>
 <section id="about-modal" class="modal">
   <section class="modal-content">
-    <h4><u>abcdefghijklmnopqrstuvxyz</u></h4>
+    <h5><u>abcdefghijklmnopqrstuvxyz</u></h4>
     <p>is an attempt to engage with contemporary (often canadian) poetics in newfangled methods of reviewing and computer mediation. feel free to contact me on twitter <a href="https://twitter.com/ezzzzzzzzzzzze">@ezzzzzzzzzzzze</a> with any questions, suggestions, if you'd like to write a review yourself, or to suggest a book to review. </p>
   </section>
   <section class="modal-footer">

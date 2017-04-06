@@ -1,0 +1,62 @@
+.site-lead-demonic {
+  text-align: center;
+  transform: rotate(180deg);
+}
+
+
+.sq {
+  margin-bottom: 15em;
+}
+.sq-one {
+  text-shadow: 100px 150px red;
+  margin-bottom: 5em;
+}
+.sq-two {
+  text-shadow: 100px 200px blue;
+  margin-bottom: 5em;
+}
+.sq-three {
+  text-shadow: 100px 200px yellow;
+}
+
+.aesthesis {
+  background-color: black;
+  h1 {
+    display: inline-block;
+    font-size: 3em;
+  }
+}
+
+.area{
+  text-align:center;
+  font-size:6.5em;
+  color:#fff;
+  letter-spacing: -7px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur 0.5s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}

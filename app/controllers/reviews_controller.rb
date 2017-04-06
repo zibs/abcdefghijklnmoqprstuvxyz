@@ -1,6 +1,7 @@
 class ReviewsController < ApplicationController
-  http_basic_authenticate_with name: "abcdefgh", password: "xyzxyz"
+  # http_basic_authenticate_with name: "abcdefgh", password: "xyzxyz"
   def index
+    flash[:intro] = "abcdefghijklnmopqrstuvxyz is a re-design and remediation of the old weblog poetxt.ca - while new writing is on the way, all pieces here are from 2015."
   end
 
   def sxq
